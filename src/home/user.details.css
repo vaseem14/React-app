@@ -1,0 +1,9 @@
+.user-details-container{
+    padding: 5%;
+    background-color: lightgrey;
+    font-size: 18px;
+}
+
+input{
+    padding: 5px;
+}   

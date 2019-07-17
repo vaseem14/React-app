@@ -1,0 +1,8 @@
+.userHead {
+    display: flex;
+    flex-direction: row;
+}
+.userHeadDetail {
+    flex-direction: column;
+}
+ 

@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #dddddd;
+}
+
+.header{
+ display: grid;
+ grid-template-columns: 30% 70%;   
+}
+
+.header .me{
+    padding: 3px 5px;
+}
+
+.header .targetUser{
+    padding: 3px 5px;
+}
+
+.contentBox{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.contentBox .userList{
+    display: grid;
+    list-style: none;
+}
+
+.contentBox .userItem{
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    grid-column-gap: 5px;
+
+    padding: 5px 8px;
+    border-bottom: 1px solid #dddddd;
+    align-items: center;
+}
+
+.contentBox .userItem:hover{
+    background: lightblue;
+}
+
+.contentBox .contentHolder{
+
+}

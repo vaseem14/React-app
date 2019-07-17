@@ -1,0 +1,9 @@
+.usercontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    max-width:50%;
+    height:auto;
+}
